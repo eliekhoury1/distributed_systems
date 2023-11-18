@@ -16,7 +16,8 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.9.0
+          python-version: 3.x
+          architecture: x86_64
 
       - name: Install Dependencies
         run: |
